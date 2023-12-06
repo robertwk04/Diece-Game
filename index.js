@@ -1,7 +1,7 @@
 var num1=Math.floor(Math.random()*6+1);
 var num2=Math.floor(Math.random()*6+1);
-num1="./images/dice"+num1+".png";
-num2="./images/dice"+num2+".png";
+num1="./dice"+num1+".png";
+num2="./dice"+num2+".png";
 document.getElementsByClassName("img1")[0].setAttribute("src",num1);
 document.getElementsByClassName("img2")[0].setAttribute("src",num2);
 if(num1>num2)
